@@ -14,6 +14,7 @@
 		2C5F0EB922EE1341000EAD4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F0EB722EE1341000EAD4B /* LaunchScreen.storyboard */; };
 		2C5F0EC322EE13C7000EAD4B /* SafeExtractArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F0EC222EE13C7000EAD4B /* SafeExtractArray.swift */; };
 		2C5F0EC522EE13D9000EAD4B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C5F0EC422EE13D9000EAD4B /* Default-568h@2x.png */; };
+		2C5F0EC822EE17E8000EAD4B /* AlternateArrayDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5F0EC722EE17E8000EAD4B /* AlternateArrayDataAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2C5F0EBA22EE1341000EAD4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C5F0EC222EE13C7000EAD4B /* SafeExtractArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeExtractArray.swift; sourceTree = "<group>"; };
 		2C5F0EC422EE13D9000EAD4B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2C5F0EC722EE17E8000EAD4B /* AlternateArrayDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternateArrayDataAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2C5F0EC122EE1381000EAD4B /* Safely extract by index from array */,
+				2C5F0EC622EE1799000EAD4B /* Alternate array data access */,
 				2C5F0EC022EE1369000EAD4B /* ProjectFiles */,
 			);
 			path = "tips&tricks";
@@ -84,6 +87,14 @@
 				2C5F0EC222EE13C7000EAD4B /* SafeExtractArray.swift */,
 			);
 			path = "Safely extract by index from array";
+			sourceTree = "<group>";
+		};
+		2C5F0EC622EE1799000EAD4B /* Alternate array data access */ = {
+			isa = PBXGroup;
+			children = (
+				2C5F0EC722EE17E8000EAD4B /* AlternateArrayDataAccess.swift */,
+			);
+			path = "Alternate array data access";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C5F0EC822EE17E8000EAD4B /* AlternateArrayDataAccess.swift in Sources */,
 				2C5F0EB122EE133F000EAD4B /* ViewController.swift in Sources */,
 				2C5F0EAF22EE133F000EAD4B /* AppDelegate.swift in Sources */,
 				2C5F0EC322EE13C7000EAD4B /* SafeExtractArray.swift in Sources */,
@@ -307,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "tips&tricks/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/tips&tricks/ProjectFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "tips&tricks/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/tips&tricks/ProjectFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
